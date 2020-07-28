@@ -1,3 +1,5 @@
+* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+
 .container {
     height: 150px;
     width: 400px;
@@ -59,4 +61,64 @@
     border: hotpink;
     border-radius: 5px;
     background-color: hotpink;
+}
+
+/* 토스 실습 */
+.body_container {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-starts;
+}
+
+.card {
+    height: 70px;
+    width: 290px;
+    border-radius: 15px;
+    background-color: white;
+    margin: 15px;
+    padding: 0 20px;
+    box-shadow: 0 30px 60px 12px rgba(0, 0, 33, 0.05),
+                0 4px 24px 0 rgba(0, 0, 33, 0.05),
+                0 0 1px 0 rgba(0, 0, 33, 0.09);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bank {
+    font-size: 15px;
+    color: #666666;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.toss_box_group {
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+
+.img_size {
+    height: 28px;
+    width: 28px;
+    margin-right: 20px;
+}
+
+.balance_font {
+    color: #454F5D;
+    font-weight: bold;
+}
+
+.text_blue {
+    color: blue;
 }
